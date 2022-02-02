@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* classi comuni */
+
+.il-block{
+    display: inline-block
+}
+
+/* sezione superiore */
+
+.header-main{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    height: 5rem;
+}
+
+
+.header-main div{
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+}
+
+.header-main span{
+    color: white;
+    background-color: rgb(71, 71, 71);
+    padding: 0.2em;
+    border-radius: 0.4em;
+}
+
+.arrows{
+    transform: rotate(45deg);
+}
+
+.header-main span:hover{
+    cursor: pointer;
+}
+
