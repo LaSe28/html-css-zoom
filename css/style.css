@@ -87,3 +87,51 @@ html{
 
 /* sezione finale */
 
+.footer-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    height: 6rem;
+    background-color: #222222;
+    color: white;
+    text-align: center;
+}
+
+.footer-nav div>div>i{
+    font-size: 2rem;
+}
+
+.footer-nav i{
+    margin: .5rem 1rem;
+}
+
+.footer-nav .col-left{
+    display: flex;
+    align-items: center;
+}
+
+.footer-nav .col-center{
+    display: flex;
+    align-items: center;
+}
+
+.col-center div{
+    margin: 0 0.2rem;
+}
+
+#share{
+    color: rgb(64, 224, 64);
+}
+
+.col-right{
+    display: flex;
+    height: 100%;
+    width: 130px;
+    background-color: #4A4A4A;
+}
+
+.col-right span{
+    margin: auto;
+    color: red;
+}
